@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon-logo.png">
+    <title>Weather Information Reference</title>
+    <!-- Boxicons cdn  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link style -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="container">
+                <div class="box__container">
+                    <div class="weather__app-box">
+                        <div class="search__box-wraper">
+                            <input type="text" name="" id="" placeholder="Enter your location">
+                            <button class="bx bx-search"></button>
+                        </div>
+        
+                        <div class="box__content">
+                            <div class="weather__situation">
+                                <div class="weather">
+                                    <p class="loc__info">Weather in <span class="location__name">Tehran</span> / <span class="country__name">IR</span></p>
+                                    <p class="date"></p>
+                                    <img src="images/clear_weather_icon.png" alt="">
+                                    <p class="weather__temp">0 <sup>°C</sup></p>
+                                    <p class="situation__name">Sunny</p>
+                                </div>
+                            </div>
+            
+                            <div class="situation__details-wraper">
+                                <div class="situation__detail">
+                                    <div class="detail__cover">
+                                        <i class="bx bx-water"></i>
+                                    </div>
+                                    <div class="detail__info">
+                                        <p class="humidity__value">0 <span>%</span></p>
+                                        <p class="detail__name">Humidity</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="situation__detail">
+                                    <div class="detail__cover">
+                                        <i class="bx bx-wind"></i>
+                                    </div>
+                                    <div class="detail__info">
+                                        <p class="windspeed__value">0 <span>Km / h</span></p>
+                                        <p class="detail__name">Wind Speed</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- <div class="situation__detail">
+                                    <div class="detail__cover">
+                                        <i class="bx bx-water"></i>
+                                    </div>
+                                    <div class="detail__info">
+                                        <p class="value">0 <span>%</span></p>
+                                        <p class="detail__name">Humidity</p>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="situation__detail">
+                                    <div class="detail__cover">
+                                        <i class="bx bx-water"></i>
+                                    </div>
+                                    <div class="detail__info">
+                                        <p class="value">0 <span>%</span></p>
+                                        <p class="detail__name">Humidity</p>
+                                    </div>
+                                </div> -->
+                            </div>
+        
+                            <div class="not__found">
+                                <div class="not__found-cover">
+                                    <img src="images/404.png" alt="">
+                                    <p>Oops! location not found!</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
